@@ -1,5 +1,30 @@
 @use 'variables' as a;
 
 .header {
-  
+  padding: 5rem 8rem;
+  background: url(../images/bg-hero-desktop.svg) a.$color-h_bg no-repeat right top;
+  background-size: cover;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 15rem;
+    gap: 3rem;
+  }
+}
+.about {
+  &__list {
+    
+  }
 }

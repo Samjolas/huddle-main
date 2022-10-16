@@ -1,1 +1,14 @@
 @use 'variables' as a;
+
+.heading {
+  &__accent {
+    font-size: a.$fs-800;
+    color: a.$color-main;
+  }
+}
+.para {
+  &__accent {
+    font-size: a.$fs-400;
+    font-weight: a.$fw-400;
+  }
+}

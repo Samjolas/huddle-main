@@ -1,2 +1,21 @@
 @use 'variables' as a; 
 
+.btn {
+  border-radius: 5rem;
+  padding: 0 6.5rem;
+  height: 5rem;
+  line-height: 5rem;
+  display: inline-block;
+  &__sub {
+    background: a.$color-white;
+    font-size: a.$fs-300;
+    font-family: a.$ff-sub;
+  }
+  &__main {
+    background: a.$color-btn;
+    margin-right: auto;
+    font-size: a.$fs-300;
+    color: a.$color-white;
+  }
+
+}
