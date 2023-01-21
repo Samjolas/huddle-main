@@ -5,10 +5,21 @@
     font-size: a.$fs-800;
     color: a.$color-main;
   }
+  &__main {
+    font-size: a.$fs-700;
+    color: a.$color-main;
+  }
+  &__sub {
+    font-size: a.$fs-600;
+    color: a.$color-main;
+  }
 }
 .para {
   &__accent {
     font-size: a.$fs-400;
     font-weight: a.$fw-400;
+  }
+  &__sub {
+    font-size: a.$fs-400;
   }
 }

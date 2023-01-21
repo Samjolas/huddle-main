@@ -24,9 +24,36 @@
   }
 }
 .about {
+  padding: 14rem 8rem;
+  display: grid;
+  gap: 4rem;
   &__list {
-    background: red;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    border-radius: 1rem;
+    padding: 5rem 4rem 5rem 12rem;
+    box-shadow: 0rem .3rem 1rem hsl(0, 0%, 62%);
   }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__img {
+    
+  }
+}
+
+.start {
+  z-index: 1;
+  width: 50%;
+  margin: auto;
+  background: a.$color-bg;
+  padding: 5rem 0;
+  box-shadow: 0rem .3rem 1rem hsl(0, 0%, 62%);
+  border-radius: 3rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: -10rem;
 }

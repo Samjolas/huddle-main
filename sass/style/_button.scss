@@ -2,14 +2,23 @@
 
 .btn {
   border-radius: 5rem;
-  padding: 0 6.5rem;
-  height: 5rem;
-  line-height: 5rem;
+  padding: 0rem 6.5rem;
+  line-height: 4;
   display: inline-block;
+  box-shadow: 0rem .1rem .5rem .1rem a.$color-sub;
+  &:hover {
+    box-shadow: 0rem .4rem .5rem .2rem a.$color-sub;
+    transform: translateY(-.2rem);
+  }
+  &:active {
+    box-shadow: 0rem .4rem .5rem .2rem a.$color-sub;
+    transform: translateY(.2rem);
+  }
   &__sub {
     background: a.$color-white;
     font-size: a.$fs-300;
     font-family: a.$ff-sub;
+    color: a.$color-main;
   }
   &__main {
     background: a.$color-btn;
@@ -17,5 +26,13 @@
     font-size: a.$fs-300;
     color: a.$color-white;
   }
-
+  &__accent {
+    background: a.$color-btn;
+    margin-right: auto;
+    font-size: a.$fs-500;
+    color: a.$color-white;
+    margin-top: 5rem;
+  }
 }
+
+

@@ -2,3 +2,23 @@
 .mt-70 {
   margin-top: 7rem;
 }
+
+
+
+// * This is the code for the reverse grid 
+.item1 { grid-area: img;}
+.item2 { grid-area: content;}
+.order {
+  &_1{
+    grid-template: 'content img';
+  }
+  &_2{
+    grid-template: 'img content';
+  }
+}
+
+
+
+
+// * End of the code for the reverse grid 
+
